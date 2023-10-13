@@ -4,15 +4,15 @@ import Sedan_image from '@/assets/images/icon-sedans.svg'
 export default function Home() {
   return (
     <main>
-        <div className='h-screen container mx-auto flex flex-col justify-center'>        
+        <div className='h-screen container mx-auto flex flex-col justify-center p-5'>        
             <div className='flex lg:flex-row flex-col rounded-lg overflow-hidden'>
-                <div className='bg-Bright-orange p-14 flex flex-col'>
+                <div className='bg-Bright-orange p-12 flex flex-col'>
                     <div className='flex flex-col gap-8'>
                         <Image src={Sedan_image} alt='Sedan Image' />
                         <div className='mt-3 font-big-shoulders-display text-5xl font-semibold'>SEDANS</div>
-                        <div className='text-Transparent-white'>Choose a sedan for its affordability and excellent fuel economy. Ideal for cruising in the city or on your next road trip.</div>
+                        <div className='text-Transparent-white leading-[30px]'>Choose a sedan for its affordability and excellent fuel economy. Ideal for cruising in the city or on your next road trip.</div>
                     </div>
-                    <button className='w-fit px-8 py-3 bg-white rounded-full text-Bright-orange'>Learn More</button>
+                    <button className='w-fit mt-6 px-8 py-3 bg-white rounded-full text-Bright-orange'>Learn More</button>
                 </div> 
                 <div className='bg-Dark-cyan p-12'>
                     <div>
