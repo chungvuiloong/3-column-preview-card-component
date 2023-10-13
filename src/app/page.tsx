@@ -18,7 +18,7 @@ export default function Home() {
                             Ideal for cruising in the city or on your next road trip.
                         </div>
                     </div>
-                    <button className='w-fit mt-6 px-8 py-3 bg-white rounded-full text-Bright-orange'>Learn More</button>
+                    <button className='w-fit mt-6 px-8 py-3 bg-white hover:bg-Bright-orange rounded-full text-Bright-orange hover:text-white hover:border-2 hover:border-neutral-50 hover:py-2.5'>Learn More</button>
                 </div> 
                 <div className='bg-Dark-cyan p-12 flex flex-col max-w-[335px]'>
                     <div className='flex flex-col gap-8'>
@@ -29,7 +29,7 @@ export default function Home() {
                             Perfect for your next family vacation and off-road adventures.
                         </div>
                     </div>
-                    <button className='w-fit mt-6 px-8 py-3 bg-white rounded-full text-Dark-cyan'>Learn More</button>
+                    <button className='w-fit mt-6 px-8 py-3 bg-white hover:bg-Dark-cyan rounded-full text-Dark-cyan hover:text-white hover:border-2 hover:border-neutral-50 hover:py-2.5'>Learn More</button>
                 </div>
                 <div className='bg-Very-dark-cyan p-12 flex flex-col max-w-[335px]'>
                     <div className='flex flex-col gap-8'>
@@ -40,7 +40,7 @@ export default function Home() {
                         Enjoy the enhanced comfort of a luxury rental and arrive in style.
                         </div>
                     </div>
-                    <button className='w-fit mt-6 px-8 py-3 bg-white rounded-full text-Very-dark-cyan'>Learn More</button>
+                    <button className='w-fit mt-6 px-8 py-3 bg-white hover:bg-Very-dark-cyan rounded-full text-Very-dark-cyan hover:text-white hover:border-2 hover:border-neutral-50 hover:py-2.5'>Learn More</button>
                 </div>
             </div>
         </div>
