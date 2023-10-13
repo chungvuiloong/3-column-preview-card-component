@@ -1,6 +1,7 @@
 import Image from 'next/image'
 import Sedan_image from '@/assets/images/icon-sedans.svg'
 import Suv_image from '@/assets/images/icon-suvs.svg'
+import Luxury_image from '@/assets/images/icon-luxury.svg'
 
 export default function Home() {
   return (
@@ -22,13 +23,15 @@ export default function Home() {
                         <div className='text-Transparent-white leading-[30px]'>Take an SUV for its spacious interior, power, and versatility. Perfect for your next family vacation and off-road adventures.</div>
                     </div>
                     <button className='w-fit mt-6 px-8 py-3 bg-white rounded-full text-Dark-cyan'>Learn More</button>
-                </div>  
-                  
-                {/* 
-                <div>
-                    <div>Luxury</div>
-                    <div>Cruise in the best car brands without the bloated prices. Enjoy the enhanced comfort of a luxury rental and arrive in style.</div>
-                </div> */}
+                </div>
+                <div className='bg-Very-dark-cyan p-12 flex flex-col'>
+                    <div className='flex flex-col gap-8'>
+                        <Image src={Luxury_image} alt='Suv Image' />
+                        <div className='mt-3 font-big-shoulders-display text-5xl font-semibold'>SUVs</div>
+                        <div className='text-Transparent-white leading-[30px]'>Take an SUV for its spacious interior, power, and versatility. Perfect for your next family vacation and off-road adventures.</div>
+                    </div>
+                    <button className='w-fit mt-6 px-8 py-3 bg-white rounded-full text-Very-dark-cyan'>Learn More</button>
+                </div>
             </div>
         </div>
     </main>
