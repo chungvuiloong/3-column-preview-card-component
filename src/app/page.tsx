@@ -8,7 +8,7 @@ export default function Home() {
     <main>
         <div className='min-h-screen container mx-auto flex flex-col justify-center p-5'>        
             <div className='flex lg:flex-row flex-col rounded-lg overflow-hidden'>
-                <div className='bg-Bright-orange p-12 flex flex-col'>
+                <div className='bg-Bright-orange p-12 flex flex-col max-w-[335px]'>
                     <div className='flex flex-col gap-8'>
                         <Image src={Sedan_image} alt='Sedan Image' />
                         <div className='mt-3 font-big-shoulders-display text-5xl font-semibold'>SEDANS</div>
@@ -16,7 +16,7 @@ export default function Home() {
                     </div>
                     <button className='w-fit mt-6 px-8 py-3 bg-white rounded-full text-Bright-orange'>Learn More</button>
                 </div> 
-                <div className='bg-Dark-cyan p-12 flex flex-col'>
+                <div className='bg-Dark-cyan p-12 flex flex-col max-w-[335px]'>
                     <div className='flex flex-col gap-8'>
                         <Image src={Suv_image} alt='Suv Image' />
                         <div className='mt-3 font-big-shoulders-display text-5xl font-semibold'>SUVs</div>
@@ -24,7 +24,7 @@ export default function Home() {
                     </div>
                     <button className='w-fit mt-6 px-8 py-3 bg-white rounded-full text-Dark-cyan'>Learn More</button>
                 </div>
-                <div className='bg-Very-dark-cyan p-12 flex flex-col'>
+                <div className='bg-Very-dark-cyan p-12 flex flex-col max-w-[335px]'>
                     <div className='flex flex-col gap-8'>
                         <Image src={Luxury_image} alt='Suv Image' />
                         <div className='mt-3 font-big-shoulders-display text-5xl font-semibold'>SUVs</div>
