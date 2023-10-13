@@ -1,5 +1,6 @@
 import Image from 'next/image'
 import Sedan_image from '@/assets/images/icon-sedans.svg'
+import Suv_image from '@/assets/images/icon-suvs.svg'
 
 export default function Home() {
   return (
@@ -14,12 +15,13 @@ export default function Home() {
                     </div>
                     <button className='w-fit mt-6 px-8 py-3 bg-white rounded-full text-Bright-orange'>Learn More</button>
                 </div> 
-                <div className='bg-Dark-cyan p-12'>
-                    <div>
-                        <div>SUVs</div>
-                        <div>Take an SUV for its spacious interior, power, and versatility. Perfect for your next family vacation and off-road adventures.</div>
+                <div className='bg-Dark-cyan p-12 flex flex-col'>
+                    <div className='flex flex-col gap-8'>
+                        <Image src={Suv_image} alt='Suv Image' />
+                        <div className='mt-3 font-big-shoulders-display text-5xl font-semibold'>SUVs</div>
+                        <div className='text-Transparent-white leading-[30px]'>Take an SUV for its spacious interior, power, and versatility. Perfect for your next family vacation and off-road adventures.</div>
                     </div>
-                    <button>Learn More</button>
+                    <button className='w-fit mt-6 px-8 py-3 bg-white rounded-full text-Dark-cyan'>Learn More</button>
                 </div>  
                   
                 {/* 
