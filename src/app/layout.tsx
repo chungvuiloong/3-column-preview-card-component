@@ -1,8 +1,15 @@
 import './globals.css'
 import type { Metadata } from 'next'
-import { Inter } from 'next/font/google'
+import { Inter, Lexend_Deca } from 'next/font/google'
 
 const inter = Inter({ subsets: ['latin'] })
+
+const lexendDeca = Lexend_Deca({
+  subsets: ['latin'],
+  display: 'swap',
+  weight: '400',
+  variable: '--font-lexend-deca',
+})
 
 export const metadata: Metadata = {
   title: 'Create Next App',
@@ -16,7 +23,7 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body className={inter.className}>{children}</body>
+      <body className={`${lexendDeca.variable} ${inter.className}`}>{children}</body>
     </html>
   )
 }

@@ -10,6 +10,9 @@ module.exports = {
     ],
     theme: {
         extend: {
+            fontFamily: {
+                'Lexend-Deca': ['var(--font-lexend-deca']
+              },
             colors: {
                 // Primary
                 'Bright-orange': 'hsl(31, 77%, 52%)',
