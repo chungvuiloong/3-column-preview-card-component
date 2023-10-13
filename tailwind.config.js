@@ -11,7 +11,7 @@ module.exports = {
     theme: {
         extend: {
             fontFamily: {
-                'Lexend-Deca': ['var(--font-lexend-deca']
+                'big-shoulder-display': ['var(--font-big-shoulder-display)']
               },
             colors: {
                 // Primary
