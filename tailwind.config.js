@@ -11,7 +11,8 @@ module.exports = {
     theme: {
         extend: {
             fontFamily: {
-                'big-shoulder-display': ['var(--font-big-shoulder-display)']
+                inter: ['var(--font-inter)'],
+                'big-shoulders-display': ['var(--font-big-shoulders-display)'],
               },
             colors: {
                 // Primary

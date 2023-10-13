@@ -9,7 +9,7 @@ export default function Home() {
                 <div className='bg-Bright-orange p-12 flex flex-col'>
                     <div className='flex flex-col gap-6'>
                         <Image src={Sedan_image} alt='Sedan Image' />
-                        <div>Sedans</div>
+                        <div className='font-big-shoulders-display'>Sedans</div>
                         <div className='text-Transparent-white'>Choose a sedan for its affordability and excellent fuel economy. Ideal for cruising in the city or on your next road trip.</div>
                     </div>
                     <button className='w-fit px-8 py-3 bg-white rounded-full text-Bright-orange'>Learn More</button>
