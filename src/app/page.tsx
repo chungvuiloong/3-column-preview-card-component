@@ -7,7 +7,7 @@ export default function Home() {
   return (
     <main>
         <div className='min-h-screen container mx-auto flex flex-col justify-center p-5'>        
-            <div className='flex lg:flex-row flex-col rounded-lg overflow-hidden'>
+            <div className='mx-auto flex lg:flex-row flex-col rounded-lg overflow-hidden'>
                 <div className='bg-Bright-orange p-12 flex flex-col max-w-[335px]'>
                     <div className='flex flex-col gap-8'>
                         <Image src={Sedan_image} alt='Sedan Image' />
