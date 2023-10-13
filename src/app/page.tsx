@@ -5,7 +5,7 @@ export default function Home() {
     <main>
         <div className='h-screen container mx-auto flex flex-col justify-center'>        
             <div className='flex lg:flex-row flex-col rounded-lg overflow-hidden'>
-                <div className='bg-Bright-orange p-12'>
+                <div className='bg-Bright-orange p-12 flex flex-col'>
                     <div>
                         <div >Sedans</div>
                         <div>Choose a sedan for its affordability and excellent fuel economy. Ideal for cruising in the city or on your next road trip.</div>
