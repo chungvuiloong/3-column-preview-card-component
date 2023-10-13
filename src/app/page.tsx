@@ -6,7 +6,7 @@ import Luxury_image from '@/assets/images/icon-luxury.svg'
 export default function Home() {
   return (
     <main>
-        <div className='h-screen container mx-auto flex flex-col justify-center p-5'>        
+        <div className='min-h-screen container mx-auto flex flex-col justify-center p-5'>        
             <div className='flex lg:flex-row flex-col rounded-lg overflow-hidden'>
                 <div className='bg-Bright-orange p-12 flex flex-col'>
                     <div className='flex flex-col gap-8'>
