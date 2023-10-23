@@ -45,9 +45,9 @@ The strcuture of all the content can be easily be implemented via flex.
 ### Built with
 
 - Semantic HTML5 markup
-- CSS custom properties
 - Flexbox
 - Mobile-first workflow
+- [TailwindCSS](https://tailwindcss.com/)
 - [React](https://reactjs.org/) - JS library
 - [Next.js](https://nextjs.org/) - React framework
 
